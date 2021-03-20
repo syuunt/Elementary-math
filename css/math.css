@@ -1,0 +1,193 @@
+header{
+  background-color:rgb(90, 200, 255);
+
+}
+
+.container{
+  width: 600px;
+  height: 120px;
+  margin-left: auto;
+  margin-right: auto;
+
+  align-items: center;
+}
+
+
+.works{
+  width: 50%;
+  
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: normal;
+  font-size: 200%;
+  text-align: center;
+}
+
+.works  > .itititle > h1{
+  font-weight: normal;
+  font-size: 250%;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom:5%;
+}
+  
+.works  > .itititle > #tasizan {
+  text-align: center;
+} 
+  
+.keisann{
+  display:flex;
+  height: 70px;
+  width: 500px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.keisann > .mondai{
+  display:flex;
+  font-size: 300%;
+  width: 65%;
+  margin-right: auto;
+}
+.keisann > .mondai > #aaa{
+  width: 25%;
+  text-align:center
+}
+.keisann > .mondai > #bbb{
+  width: 25%;
+  text-align:center
+}
+.keisann > .mondai > #ccc{
+  width: 25%;
+  text-align:center
+}
+.keisann > .mondai > #ddd{
+  width: 25%;
+  text-align:center
+}
+
+.keisann > .kaitou {
+  width: 35%;
+  display:flex;
+}
+.keisann > .kaitou >#eee{
+  display:flex;
+  width: 60%;
+  font-size: 300%;
+}
+.keisann > .kaitou >#fff{
+  display:flex;
+  width: 40%;
+  font-size: 300%;
+}
+
+
+
+
+
+
+.nyuuryoku{
+
+  width: 25%;
+  font-size: 350%;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid 3px #6091d3;/*線*/
+  border-radius: 5%;/*角の丸み*/
+  
+  
+}
+
+/*一段目*/
+.nyuuryoku > .one{
+ display:flex;
+ width: 60%;
+ margin-left: auto;
+ margin-right: auto;
+}
+.nyuuryoku > .one > #b7b{
+  width: 33%;
+  text-align:center
+}
+.nyuuryoku > .one > #b8b{
+  width: 33%;
+  text-align:center
+}
+.nyuuryoku > .one > #b9b{
+  width: 33%;
+  text-align:center
+}
+  
+/*二段目*/
+.nyuuryoku > .two{
+  display:flex;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+ }
+ .nyuuryoku > .two > #b4b{
+  width: 33%;
+  text-align:center
+}
+.nyuuryoku > .two > #b5b{
+  width: 33%;
+  text-align:center
+}
+.nyuuryoku > .two > #b6b{
+  width: 33%;
+  text-align:center
+}
+
+/*三段目*/
+.nyuuryoku > .three{
+  display:flex;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+ }
+ .nyuuryoku > .three > #b1b{
+  width: 33%;
+  text-align:center
+}
+.nyuuryoku > .three > #b2b{
+  width: 33%;
+  text-align:center
+}
+.nyuuryoku > .three > #b3b{
+  width: 33%;
+  text-align:center
+}
+
+/*四段目*/
+.nyuuryoku > .fore{
+  display:flex;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.nyuuryoku > .fore > #b0b{
+  width: 33%;
+  text-align:center
+}
+.nyuuryoku > .fore > #bdelb{
+  width: 33%;
+  text-align:center
+}
+.nyuuryoku > .fore > #bokb{
+  width: 33%;
+  text-align:center
+}
+
+  
+
+
+
+
+
+
+
+
+
+
