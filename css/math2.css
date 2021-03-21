@@ -1,6 +1,6 @@
 
-  /*　画面サイズ 499pxまで適用　*/
-@media screen and (max-width: 499px) { 
+  /*　画面サイズ 560pxまで適用　*/
+@media screen and (max-width: 560px) { 
 
   header{
     background-color:rgb(90, 200, 255);
@@ -43,16 +43,12 @@
     margin-bottom: 0%;
   }
     
-  .works  > .itititle > #tasizan {
-    font-size: 110%;
-    text-align: center;
+  .works  > .itititle > #iti > a{
+    display: inline-block;
+  }
 
-  } 
-  .works  > .itititle > #hikizan {
-    font-size: 110%;
-    text-align: center;
 
-  } 
+
   /*2*/
   .works  > .nititle > h1{
     font-weight: normal;
@@ -220,10 +216,11 @@
     width: 33%;
     text-align:center
   }
+}
   
     
-    /*　画面サイズ 500pxから999pxまで適用　*/
-  @media screen and (min-width: 500px) and (max-width: 999px) {
+    /*　画面サイズ 561pxから960pxまで適用　*/
+  @media screen and (min-width: 561px) and (max-width: 960px) {
   
     header{
       background-color:rgb(90, 200, 255);
@@ -257,28 +254,20 @@
     /*1*/
     .works  > .itititle > h1{
       font-weight: normal;
-      font-size: 250%;
+      font-size: 130%;
       text-align: center;
       margin-top: 10px;
       margin-bottom:10px;
     }
       
-    .works  > .itititle > #tasizan {
-      font-size: 150%;
-      text-align: center;
-      margin-top: 5%;
-      margin-bottom: 5%;
-    } 
-    .works  > .itititle > #hikizan {
-      font-size: 150%;
-      text-align: center;
-      margin-top: 5%;
-      margin-bottom: 5%;
-    } 
+    .works  > .itititle > #iti > a{
+      display: inline-block;
+    }
+  
     /*2*/
     .works  > .nititle > h1{
       font-weight: normal;
-      font-size: 250%;
+      font-size: 130%;
       text-align: center;
       margin-top: 10px;
       margin-bottom:10px;
@@ -441,22 +430,15 @@
       text-align:center
     }
   }
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-}
 
 
 
-/*　画面サイズ 1000px以上から適用　*/
-@media screen and (min-width:1000px) {
+
+
+
+
+/*　画面サイズ 961px以上から適用　*/
+@media screen and (min-width:961px) {
 
   header{
     background-color:rgb(90, 200, 255);
@@ -490,28 +472,21 @@
   /*1*/
   .works  > .itititle > h1{
     font-weight: normal;
-    font-size: 250%;
+    font-size: 200%;
     text-align: center;
     margin-top: 10px;
     margin-bottom:10px;
   }
     
-  .works  > .itititle > #tasizan {
-    font-size: 150%;
-    text-align: center;
-    margin-top: 5%;
-    margin-bottom: 5%;
-  } 
-  .works  > .itititle > #hikizan {
-    font-size: 150%;
-    text-align: center;
-    margin-top: 5%;
-    margin-bottom: 5%;
-  } 
+  .works  > .itititle > #iti > a{
+    /*横幅が変わってもリンクを並べる　綺麗に　変異改行せず*/
+    display: inline-block;
+  }
+
   /*2*/
   .works  > .nititle > h1{
     font-weight: normal;
-    font-size: 250%;
+    font-size: 200%;
     text-align: center;
     margin-top: 10px;
     margin-bottom:10px;
